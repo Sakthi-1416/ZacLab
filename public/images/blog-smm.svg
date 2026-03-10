@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a0a1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg5)"/>
+  <!-- Posts grid -->
+  <rect x="80" y="60" width="200" height="200" rx="6" fill="#1a1a1a" stroke="rgba(192,57,43,0.15)" stroke-width="1"/>
+  <rect x="80" y="60" width="200" height="120" rx="6" fill="#2a0a1a"/>
+  <text x="180" y="130" text-anchor="middle" font-family="sans-serif" font-size="40" fill="rgba(192,57,43,0.3)">📸</text>
+  <text x="96" y="202" font-family="sans-serif" font-size="11" fill="rgba(240,236,228,0.8)">The story behind our work</text>
+  <text x="96" y="220" font-family="sans-serif" font-size="10" fill="rgba(180,180,180,0.5)">♡ 2,840  💬 143  ↗ 89</text>
+  <text x="96" y="240" font-family="sans-serif" font-size="9" fill="rgba(192,57,43,0.5)">@zaclab · 2h ago</text>
+
+  <rect x="300" y="60" width="200" height="200" rx="6" fill="#1a1a1a" stroke="rgba(192,57,43,0.15)" stroke-width="1"/>
+  <rect x="300" y="60" width="200" height="120" rx="6" fill="#0a1a2a"/>
+  <text x="400" y="130" text-anchor="middle" font-family="sans-serif" font-size="40" fill="rgba(80,140,220,0.3)">💡</text>
+  <text x="316" y="202" font-family="sans-serif" font-size="11" fill="rgba(240,236,228,0.8)">3 things we learned this month</text>
+  <text x="316" y="220" font-family="sans-serif" font-size="10" fill="rgba(180,180,180,0.5)">♡ 4,210  💬 287  ↗ 412</text>
+  <text x="316" y="240" font-family="sans-serif" font-size="9" fill="rgba(192,57,43,0.5)">@zaclab · 1d ago</text>
+
+  <!-- Follower growth -->
+  <rect x="520" y="60" width="220" height="110" rx="6" fill="#131313" stroke="rgba(139,26,42,0.25)" stroke-width="1"/>
+  <text x="540" y="85" font-family="sans-serif" font-size="10" fill="rgba(192,57,43,0.7)">FOLLOWER GROWTH</text>
+  <text x="540" y="115" font-family="sans-serif" font-size="28" font-weight="bold" fill="rgba(240,236,228,0.9)">28.4k</text>
+  <text x="540" y="135" font-family="sans-serif" font-size="10" fill="rgba(100,200,100,0.8)">↑ 1300% in 8 months</text>
+  <polyline points="540,155 570,148 600,140 630,130 660,120 690,108 720,98"
+    fill="none" stroke="rgba(192,57,43,0.7)" stroke-width="2"/>
+
+  <rect x="520" y="190" width="220" height="70" rx="6" fill="#131313" stroke="rgba(139,26,42,0.2)" stroke-width="1"/>
+  <text x="540" y="210" font-family="sans-serif" font-size="10" fill="rgba(180,180,180,0.6)">ENGAGEMENT RATE</text>
+  <text x="540" y="238" font-family="sans-serif" font-size="24" font-weight="bold" fill="rgba(240,236,228,0.9)">8.4%</text>
+
+  <!-- Hashtag cloud -->
+  <rect x="80" y="278" width="640" height="80" rx="6" fill="#131313" stroke="rgba(139,26,42,0.2)" stroke-width="1"/>
+  <text x="100" y="300" font-family="monospace" font-size="12" fill="rgba(192,57,43,0.7)">#webdesign</text>
+  <text x="210" y="300" font-family="monospace" font-size="10" fill="rgba(180,180,180,0.5)">#freelance</text>
+  <text x="295" y="300" font-family="monospace" font-size="14" fill="rgba(192,57,43,0.8)">#ux</text>
+  <text x="328" y="300" font-family="monospace" font-size="11" fill="rgba(100,140,220,0.6)">#digitalmarketing</text>
+  <text x="490" y="300" font-family="monospace" font-size="9" fill="rgba(180,180,180,0.4)">#seo</text>
+  <text x="535" y="300" font-family="monospace" font-size="12" fill="rgba(192,57,43,0.6)">#zaclab</text>
+  <text x="100" y="330" font-family="monospace" font-size="11" fill="rgba(180,180,180,0.4)">#startup</text>
+  <text x="175" y="330" font-family="monospace" font-size="13" fill="rgba(192,57,43,0.5)">#contentcreator</text>
+  <text x="335" y="330" font-family="monospace" font-size="10" fill="rgba(100,140,220,0.5)">#socialmedia</text>
+  <text x="450" y="330" font-family="monospace" font-size="12" fill="rgba(180,180,180,0.5)">#growth</text>
+
+  <text x="400" y="390" text-anchor="middle" font-family="Cinzel,serif" font-size="11" fill="rgba(192,57,43,0.6)" letter-spacing="4">SOCIAL MEDIA MARKETING</text>
+</svg>

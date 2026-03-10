@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060e1a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg2)"/>
+  <!-- Search bar -->
+  <rect x="100" y="80" width="600" height="52" rx="26" fill="#131313" stroke="rgba(100,140,220,0.4)" stroke-width="1.5"/>
+  <circle cx="134" cy="106" r="12" fill="none" stroke="rgba(192,57,43,0.6)" stroke-width="2"/>
+  <line x1="142" y1="114" x2="152" y2="124" stroke="rgba(192,57,43,0.6)" stroke-width="2"/>
+  <text x="165" y="112" font-family="sans-serif" font-size="14" fill="rgba(240,236,228,0.5)">zaclab.com services...</text>
+  <text x="645" y="112" font-family="sans-serif" font-size="18" fill="rgba(192,57,43,0.8)">↵</text>
+  <!-- Results -->
+  <g font-family="sans-serif">
+    <rect x="100" y="158" width="600" height="62" rx="4" fill="rgba(107,15,26,0.15)" stroke="rgba(139,26,42,0.2)" stroke-width="1"/>
+    <text x="120" y="180" font-size="11" fill="rgba(100,140,220,0.7)">https://zaclab.com</text>
+    <text x="120" y="200" font-size="15" fill="rgba(100,140,220,0.9)">Zac Lab — Freelance Web &amp; Digital Agency</text>
+    <text x="120" y="216" font-size="11" fill="rgba(180,180,180,0.6)">#1 result · Ranked by Zac Lab SEO</text>
+
+    <rect x="100" y="232" width="600" height="58" rx="4" fill="#131313" stroke="rgba(139,26,42,0.12)" stroke-width="1"/>
+    <text x="120" y="252" font-size="11" fill="rgba(100,140,220,0.5)">https://competitor.com</text>
+    <text x="120" y="270" font-size="14" fill="rgba(200,200,200,0.5)">A competitor's website</text>
+    <text x="120" y="284" font-size="11" fill="rgba(140,140,140,0.4)">#2 result</text>
+
+    <rect x="100" y="302" width="600" height="58" rx="4" fill="#131313" stroke="rgba(139,26,42,0.1)" stroke-width="1"/>
+    <text x="120" y="322" font-size="11" fill="rgba(100,140,220,0.4)">https://another.com</text>
+    <text x="120" y="340" font-size="14" fill="rgba(180,180,180,0.4)">Another site</text>
+    <text x="120" y="354" font-size="11" fill="rgba(120,120,120,0.4)">#3 result</text>
+  </g>
+  <!-- Rank badge -->
+  <rect x="640" y="155" width="60" height="68" rx="4" fill="rgba(192,57,43,0.15)" stroke="rgba(192,57,43,0.4)" stroke-width="1"/>
+  <text x="670" y="190" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="rgba(192,57,43,0.9)">#1</text>
+  <text x="670" y="210" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(192,57,43,0.6)">RANK</text>
+
+  <text x="400" y="390" text-anchor="middle" font-family="Cinzel,serif" font-size="11" fill="rgba(192,57,43,0.6)" letter-spacing="4">SEO STRATEGY</text>
+</svg>

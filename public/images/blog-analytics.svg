@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0a1e"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(192,57,43,0.8)"/>
+      <stop offset="100%" stop-color="rgba(192,57,43,0.2)"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="rgba(100,140,220,0)" />
+      <stop offset="100%" stop-color="rgba(100,140,220,0.3)" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg4)"/>
+  <!-- Dashboard card -->
+  <rect x="60" y="50" width="680" height="320" rx="8" fill="#111" stroke="rgba(139,26,42,0.25)" stroke-width="1"/>
+  <!-- KPI cards -->
+  <rect x="80" y="70" width="140" height="70" rx="4" fill="#1a0608" stroke="rgba(192,57,43,0.2)" stroke-width="1"/>
+  <text x="100" y="92" font-family="sans-serif" font-size="10" fill="rgba(192,57,43,0.7)">REVENUE</text>
+  <text x="100" y="118" font-family="sans-serif" font-size="22" font-weight="bold" fill="rgba(240,236,228,0.9)">$48.2k</text>
+  <text x="100" y="132" font-family="sans-serif" font-size="9" fill="rgba(100,200,100,0.8)">↑ 24% vs last month</text>
+
+  <rect x="234" y="70" width="140" height="70" rx="4" fill="#131313" stroke="rgba(80,140,220,0.2)" stroke-width="1"/>
+  <text x="254" y="92" font-family="sans-serif" font-size="10" fill="rgba(80,140,220,0.7)">VISITORS</text>
+  <text x="254" y="118" font-family="sans-serif" font-size="22" font-weight="bold" fill="rgba(240,236,228,0.9)">12,408</text>
+  <text x="254" y="132" font-family="sans-serif" font-size="9" fill="rgba(100,200,100,0.8)">↑ 18%</text>
+
+  <rect x="388" y="70" width="140" height="70" rx="4" fill="#131313" stroke="rgba(100,200,80,0.2)" stroke-width="1"/>
+  <text x="408" y="92" font-family="sans-serif" font-size="10" fill="rgba(100,200,80,0.7)">CONVERSION</text>
+  <text x="408" y="118" font-family="sans-serif" font-size="22" font-weight="bold" fill="rgba(240,236,228,0.9)">3.8%</text>
+  <text x="408" y="132" font-family="sans-serif" font-size="9" fill="rgba(100,200,100,0.8)">↑ 0.4%</text>
+
+  <rect x="542" y="70" width="140" height="70" rx="4" fill="#131313" stroke="rgba(220,160,60,0.2)" stroke-width="1"/>
+  <text x="562" y="92" font-family="sans-serif" font-size="10" fill="rgba(220,160,60,0.7)">BOUNCE RATE</text>
+  <text x="562" y="118" font-family="sans-serif" font-size="22" font-weight="bold" fill="rgba(240,236,228,0.9)">32%</text>
+  <text x="562" y="132" font-family="sans-serif" font-size="9" fill="rgba(100,200,100,0.8)">↓ 8%</text>
+
+  <!-- Bar chart -->
+  <g opacity="0.9">
+    <rect x="90"  y="268" width="40" height="72" fill="url(#barGrad)" rx="2"/>
+    <rect x="148" y="240" width="40" height="100" fill="url(#barGrad)" rx="2"/>
+    <rect x="206" y="218" width="40" height="122" fill="url(#barGrad)" rx="2"/>
+    <rect x="264" y="195" width="40" height="145" fill="url(#barGrad)" rx="2"/>
+    <rect x="322" y="230" width="40" height="110" fill="url(#barGrad)" rx="2"/>
+    <rect x="380" y="208" width="40" height="132" fill="url(#barGrad)" rx="2"/>
+    <rect x="438" y="178" width="40" height="162" fill="url(#barGrad)" rx="2"/>
+    <rect x="496" y="155" width="40" height="185" fill="url(#barGrad)" rx="2"/>
+    <rect x="554" y="168" width="40" height="172" fill="url(#barGrad)" rx="2"/>
+    <rect x="612" y="142" width="40" height="198" fill="url(#barGrad)" rx="2"/>
+    <rect x="670" y="155" width="40" height="185" fill="url(#barGrad)" rx="2"/>
+  </g>
+  <!-- Line overlay -->
+  <polyline points="110,288 168,260 226,238 284,215 342,250 400,228 458,198 516,175 574,188 632,162 690,175"
+    fill="none" stroke="rgba(100,160,220,0.7)" stroke-width="2"/>
+  <g fill="rgba(100,160,220,0.9)">
+    <circle cx="110" cy="288" r="3"/><circle cx="168" cy="260" r="3"/>
+    <circle cx="226" cy="238" r="3"/><circle cx="284" cy="215" r="3"/>
+    <circle cx="342" cy="250" r="3"/><circle cx="400" cy="228" r="3"/>
+    <circle cx="458" cy="198" r="3"/><circle cx="516" cy="175" r="3"/>
+    <circle cx="574" cy="188" r="3"/><circle cx="632" cy="162" r="3"/>
+    <circle cx="690" cy="175" r="3"/>
+  </g>
+  <!-- Base line -->
+  <line x1="80" y1="340" x2="720" y2="340" stroke="rgba(139,26,42,0.15)" stroke-width="1"/>
+  <text x="400" y="390" text-anchor="middle" font-family="Cinzel,serif" font-size="11" fill="rgba(192,57,43,0.6)" letter-spacing="4">DATA ANALYTICS</text>
+</svg>
