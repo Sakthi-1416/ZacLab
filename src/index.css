@@ -26,8 +26,8 @@
   --border-card:    rgba(139,26,42,0.22);
 
   --font-logo:    'Bahiana', sans-serif;
-  --font-display: 'Cinzel', serif;
-  --font-body:    'Lato', sans-serif;
+  --font-display: 'roboto', serif;
+  --font-body:    'Roboto', sans-serif;
 }
 
 body.light {
