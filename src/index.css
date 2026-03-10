@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Bahiana&family=Delicious+Handrawn&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bahiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
 /* ════════════════════════════════════════════
@@ -24,7 +25,7 @@
   --border-subtle:  rgba(139,26,42,0.22);
   --border-card:    rgba(139,26,42,0.22);
 
-  --font-logo:    'Bahiana', sans-serif;
+  --font-logo:    'Delicious Handrawn', sans-serif;
   --font-display: 'Cinzel', serif;
   --font-body:    'Lato', sans-serif;
 }
