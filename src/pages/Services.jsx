@@ -243,10 +243,10 @@ export default function Services() {
           <section style={{ padding:'5rem 0', position:'relative', overflow:'hidden' }}>
             <div className="orb orb-deep" style={{ width:'600px', height:'600px', top:'0%', right:'-200px', opacity:0.1 }} />
 
-            <div className="container" style={{ position:'relative', zIndex:1 }}>
+            {/* <div className="container" style={{ position:'relative', zIndex:1 }}>
               <p style={{ fontFamily:'var(--font-display)', fontSize:'0.6rem', letterSpacing:'5px', color:'var(--crimson-glow)', marginBottom:'0.8rem', textTransform:'uppercase' }}>The Full Picture</p>
               <h2 className="shimmer-text" style={{ fontFamily:'var(--font-script)', fontSize:'clamp(2rem,5vw,3.5rem)', marginBottom:'3.5rem' }}>What we offer</h2>
-            </div>
+            </div> */}
 
             {/* Desktop horizontal roadmap — full bleed */}
             <div className="d-none d-md-block" style={{ position:'relative', zIndex:1 }}>
