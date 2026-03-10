@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2a0608"/><stop offset="100%" stop-color="#0a0a0a"/></linearGradient></defs>
+  <rect width="600" height="360" fill="url(#g)"/>
+  <rect x="160" y="30" width="280" height="300" rx="20" fill="#131313" stroke="rgba(192,57,43,0.3)" stroke-width="1.5"/>
+  <rect x="175" y="50" width="250" height="265" rx="10" fill="#0e0e0e"/>
+  <rect x="175" y="50" width="250" height="45" rx="10" fill="#1a0608"/>
+  <text x="300" y="80" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="rgba(240,236,228,0.9)">Nomad Eats</text>
+  <rect x="185" y="108" width="230" height="65" rx="6" fill="#1e1e1e"/>
+  <rect x="185" y="108" width="75" height="65" rx="6" fill="#2a1208"/>
+  <text x="222" y="148" text-anchor="middle" font-family="sans-serif" font-size="28">🍔</text>
+  <text x="275" y="132" font-family="sans-serif" font-size="11" fill="rgba(240,236,228,0.8)">Burger Palace</text>
+  <text x="275" y="148" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.5)">20-30 min</text>
+  <text x="275" y="163" font-family="sans-serif" font-size="9" fill="rgba(192,57,43,0.8)">4.8 stars</text>
+  <rect x="185" y="184" width="230" height="65" rx="6" fill="#1e1e1e"/>
+  <rect x="185" y="184" width="75" height="65" rx="6" fill="#0a1a2a"/>
+  <text x="222" y="224" text-anchor="middle" font-family="sans-serif" font-size="28">🍜</text>
+  <text x="275" y="208" font-family="sans-serif" font-size="11" fill="rgba(240,236,228,0.8)">Noodle House</text>
+  <text x="275" y="224" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.5)">25-35 min</text>
+  <text x="275" y="239" font-family="sans-serif" font-size="9" fill="rgba(192,57,43,0.8)">4.6 stars</text>
+  <rect x="185" y="262" width="230" height="40" rx="20" fill="rgba(192,57,43,0.7)"/>
+  <text x="300" y="287" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="white">Track Your Order</text>
+</svg>

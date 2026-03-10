@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="360" viewBox="0 0 600 360">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0f0a06"/><stop offset="100%" stop-color="#0a0a0a"/></linearGradient></defs>
+  <rect width="600" height="360" fill="url(#g)"/>
+  <text x="300" y="40" text-anchor="middle" font-family="Cinzel,serif" font-size="15" fill="rgba(220,160,60,0.7)" letter-spacing="3">PULSEBOARD</text>
+  <rect x="30" y="55" width="130" height="80" rx="4" fill="#131313" stroke="rgba(220,160,60,0.2)" stroke-width="1"/>
+  <text x="95" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="rgba(220,160,60,0.9)">$1.2M</text>
+  <text x="95" y="112" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.5)">MRR · +18%</text>
+  <rect x="172" y="55" width="130" height="80" rx="4" fill="#131313" stroke="rgba(100,160,220,0.2)" stroke-width="1"/>
+  <text x="237" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="rgba(100,160,220,0.9)">8.4k</text>
+  <text x="237" y="112" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.5)">Users · +12%</text>
+  <rect x="314" y="55" width="130" height="80" rx="4" fill="#131313" stroke="rgba(192,57,43,0.2)" stroke-width="1"/>
+  <text x="379" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="rgba(192,57,43,0.9)">94%</text>
+  <text x="379" y="112" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.5)">Retention</text>
+  <rect x="456" y="55" width="130" height="80" rx="4" fill="#131313" stroke="rgba(100,200,100,0.2)" stroke-width="1"/>
+  <text x="521" y="95" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold" fill="rgba(100,200,100,0.9)">2.4%</text>
+  <text x="521" y="112" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.5)">Churn · -0.8%</text>
+  <rect x="30" y="150" width="556" height="175" rx="6" fill="#111" stroke="rgba(220,160,60,0.15)" stroke-width="1"/>
+  <text x="50" y="173" font-family="sans-serif" font-size="10" fill="rgba(220,160,60,0.6)">LIVE EVENTS</text>
+  <g font-family="monospace" font-size="10" fill="rgba(180,180,180,0.6)">
+    <text x="50" y="196">14:22  <tspan fill="rgba(100,200,100,0.7)">+ signup</tspan>   user_9821  Pro</text>
+    <text x="50" y="214">14:21  <tspan fill="rgba(192,57,43,0.7)">upgrade</tspan>   user_4412  Pro to Enterprise</text>
+    <text x="50" y="232">14:21  <tspan fill="rgba(100,160,220,0.7)">login</tspan>     user_7730  Dashboard</text>
+    <text x="50" y="250">14:20  <tspan fill="rgba(220,160,60,0.7)">payment</tspan>   user_2201  $149/mo</text>
+    <text x="50" y="268">14:20  <tspan fill="rgba(100,200,100,0.7)">+ signup</tspan>  user_9820  Free</text>
+    <text x="50" y="286">14:19  <tspan fill="rgba(192,57,43,0.7)">cancel</tspan>    user_1104  Starter</text>
+    <text x="50" y="304">14:19  <tspan fill="rgba(100,200,100,0.7)">+ signup</tspan>  user_9819  Pro</text>
+  </g>
+</svg>

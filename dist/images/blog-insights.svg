@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="420" viewBox="0 0 800 420">
+  <defs>
+    <linearGradient id="bg6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a0a"/>
+      <stop offset="100%" stop-color="#0a0a0a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="420" fill="url(#bg6)"/>
+  <!-- Balance scale / comparison -->
+  <line x1="400" y1="100" x2="400" y2="290" stroke="rgba(192,57,43,0.4)" stroke-width="2"/>
+  <line x1="250" y1="160" x2="550" y2="160" stroke="rgba(192,57,43,0.4)" stroke-width="2"/>
+  <circle cx="400" cy="100" r="8" fill="rgba(192,57,43,0.6)"/>
+  <!-- Left pan - Freelance -->
+  <rect x="110" y="200" width="200" height="90" rx="6" fill="#131313" stroke="rgba(192,57,43,0.3)" stroke-width="1"/>
+  <line x1="250" y1="160" x2="210" y2="200" stroke="rgba(192,57,43,0.3)" stroke-width="1"/>
+  <text x="210" y="224" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(192,57,43,0.8)">FREELANCE</text>
+  <text x="210" y="244" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.6)">✓ Direct access</text>
+  <text x="210" y="260" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.6)">✓ Lower cost</text>
+  <text x="210" y="276" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.6)">✓ Fast decisions</text>
+  <!-- Right pan - Agency -->
+  <rect x="490" y="200" width="200" height="90" rx="6" fill="#131313" stroke="rgba(80,120,200,0.3)" stroke-width="1"/>
+  <line x1="550" y1="160" x2="590" y2="200" stroke="rgba(80,120,200,0.3)" stroke-width="1"/>
+  <text x="590" y="224" text-anchor="middle" font-family="sans-serif" font-size="11" fill="rgba(80,120,200,0.8)">AGENCY</text>
+  <text x="590" y="244" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.6)">✓ Large teams</text>
+  <text x="590" y="260" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.6)">✓ Redundancy</text>
+  <text x="590" y="276" text-anchor="middle" font-family="sans-serif" font-size="9" fill="rgba(180,180,180,0.6)">✓ Proven process</text>
+  <!-- Middle label -->
+  <rect x="330" y="310" width="140" height="40" rx="20" fill="rgba(192,57,43,0.15)" stroke="rgba(192,57,43,0.4)" stroke-width="1"/>
+  <text x="400" y="335" text-anchor="middle" font-family="Cinzel,serif" font-size="11" fill="rgba(192,57,43,0.9)">Zac Lab = Best of both</text>
+  <text x="400" y="390" text-anchor="middle" font-family="Cinzel,serif" font-size="11" fill="rgba(192,57,43,0.6)" letter-spacing="4">INSIGHTS</text>
+</svg>
