@@ -114,8 +114,8 @@ export default function Home() {
         <div className="container" style={{ position:'relative', zIndex:1 }}>
           <div className="row align-items-center g-4">
             <div className="col-12 col-lg-6">
-              <div className="float-script" style={{ fontFamily:'var(--font-logo)', fontSize:'clamp(5rem,18vw,14rem)', lineHeight:0.9, fontWeight:700, letterSpacing:'4px', marginLeft:'-0.03em' }}>
-                <span className="shimmer-text">Zac </span>
+              <div className="float-script" style={{ fontFamily:'var(--font-logo)', fontSize:'clamp(6rem,20vw,14rem)', lineHeight:0.9, fontWeight:700, letterSpacing:'4px', marginLeft:'-0.03em' }}>
+                <span className="shimmer-text">Zac LAb</span>
               </div>
             </div>
             <div className="col-12 col-lg-6 anim-fade-up anim-delay-1">

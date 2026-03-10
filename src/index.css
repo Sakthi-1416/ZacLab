@@ -161,7 +161,7 @@ body.light .shimmer-text {
 .shimmer-crimson {
   background: linear-gradient(105deg,
     var(--crimson-glow) 0%, var(--crimson-glow) 30%,
-    #ff8c7a 47%, #ffb8a8 52%,
+    #bb3b27 47%, #ffb8a8 52%,
     var(--crimson-glow) 70%, var(--crimson-glow) 100%);
   background-size: 200% auto;
   -webkit-background-clip: text; background-clip: text;
