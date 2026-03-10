@@ -57,7 +57,7 @@ export default function Footer() {
             >
               Just some persons with skill and wifi.
               <br />
-              We build things that actually work.
+              
             </p>
           </div>
 
