@@ -97,9 +97,9 @@ export default function Home() {
       <SEOHead title="Home" description="Zac Lab is a small, skilled freelance team offering web deployment, UI/UX, SEO, data analytics, and social media marketing." path="/" />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context":"https://schema.org","@type":"Organization",
-        "name":"Zac Lab","url":"https://zaclab.com",
+        "name":"Zac Lab","url":"https://zaclab.in",
         "description":"Freelance agency: web deployment, UI/UX, SEO, data analytics, SMM.",
-        "contactPoint":{"@type":"ContactPoint","email":"hello@zaclab.com","contactType":"customer service"}
+        "contactPoint":{"@type":"ContactPoint","email":"zaclabofficial.in.com","contactType":"customer service"}
       })}} />
 
       {/* ── HERO ── */}
@@ -115,7 +115,7 @@ export default function Home() {
           <div className="row align-items-center g-4">
             <div className="col-12 col-lg-6">
               <div className="float-script" style={{ fontFamily:'var(--font-logo)', fontSize:'clamp(5rem,18vw,14rem)', lineHeight:0.9, fontWeight:700, letterSpacing:'4px', marginLeft:'-0.03em' }}>
-                <span className="shimmer-text">Zac Lab</span>
+                <span className="shimmer-text">Zac </span>
               </div>
             </div>
             <div className="col-12 col-lg-6 anim-fade-up anim-delay-1">
