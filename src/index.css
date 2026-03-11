@@ -19,15 +19,15 @@
   --bg-section-alt: #070407;
 
   --text-primary:   #f0ece4;
-  --text-muted:     #b8b0a6;
-  --text-faint:     rgba(184,176,166,0.55);
+  --text-muted:     #ffffff;
+  --text-faint:     rgb(255, 255, 255);
 
   --border-subtle:  rgba(139,26,42,0.22);
   --border-card:    rgba(139,26,42,0.22);
 
-  --font-logo:    'Bahiana', sans-serif;
-  --font-display: 'Roboto';
-  --font-body:    'Roboto', sans-serif;
+  --font-logo:    'Bahiana';
+  --font-display: 'sans-serif';
+  --font-body:    'sans-serif';
 }
 
 body.light {
@@ -484,7 +484,7 @@ body.light .orb { opacity:0.07; }
   border:none; border-bottom:1px solid rgba(139,26,42,0.38);
   color:var(--text-primary);
   font-family:var(--font-body); font-size:0.9rem;
-  padding:0.8rem 0; width:100%; outline:none;
+  padding:0.7rem ; width:100%; outline:none;
   transition:border-color 0.3s; resize:none;
 }
 .zac-input:focus {
@@ -495,7 +495,7 @@ body.light .orb { opacity:0.07; }
 body.light .zac-input::placeholder { color:rgba(90,74,68,0.4); }
 .zac-input-label {
   font-family:var(--font-display);
-  font-size:0.58rem; letter-spacing:3px; text-transform:uppercase;
+  font-size:0.5rem; letter-spacing:3px; text-transform:uppercase;
   color:var(--text-muted); margin-bottom:0.3rem; display:block;
 }
 

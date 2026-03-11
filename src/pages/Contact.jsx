@@ -37,7 +37,7 @@ export default function Contact() {
                     Drop us a line and we'll get back to you within 24 hours.
                   </p>
 
-                  {[['EMAIL','hello@zaclab.com'],['RESPONSE TIME','Within 24 hours']].map(([label,val]) => (
+                  {[['EMAIL','zaclabofficial.com'],['RESPONSE TIME','Within 24 hours']].map(([label,val]) => (
                     <div key={label} style={{ marginBottom:'1.6rem' }}>
                       <p style={{ fontFamily:'var(--font-display)', fontSize:'0.52rem', letterSpacing:'3px', color:'var(--crimson-glow)', marginBottom:'0.35rem' }}>{label}</p>
                       <p style={{ color:'var(--text-primary)', fontSize:'0.9rem' }}>{val}</p>
@@ -71,7 +71,7 @@ export default function Contact() {
                         <div className="row g-4">
                           <div className="col-12 col-sm-6">
                             <label className="zac-input-label">Your Name</label>
-                            <input className="zac-input" name="name" value={form.name} onChange={handle} placeholder="John Doe" required />
+                            <input className="zac-input" name="name" value={form.name} onChange={handle} placeholder="Max" required />
                           </div>
                           <div className="col-12 col-sm-6">
                             <label className="zac-input-label">Email Address</label>

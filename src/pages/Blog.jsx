@@ -22,7 +22,7 @@ const posts = [
     ]
   },
   {
-    id:2, tag:'SEO', date:'February 2025', author:'Jordan Lee', readTime:'7 min read',
+    id:2, tag:'SEO', date:'February 2025', author:'Abinash', readTime:'7 min read',
     img:'/images/blog-seo.svg',
     title:'SEO in 2025: What\'s Actually Working Right Now',
     excerpt:'The tactics that worked in 2020 are dead. Here\'s an honest breakdown of what\'s driving organic traffic right now — from someone who spends every day in Search Console.',
@@ -39,7 +39,7 @@ const posts = [
     ]
   },
   {
-    id:3, tag:'UI/UX', date:'January 2025', author:'Sam Torres', readTime:'6 min read',
+    id:3, tag:'UI/UX', date:'January 2025', author:'Abinash', readTime:'6 min read',
     img:'/images/blog-ux.svg',
     title:'The UX Mistakes We See on Almost Every Client Site',
     excerpt:'After designing and auditing dozens of sites, certain patterns emerge. These are the UX mistakes we see constantly — even on sites that look polished at first glance.',
@@ -56,7 +56,7 @@ const posts = [
     ]
   },
   {
-    id:4, tag:'Analytics', date:'December 2024', author:'Maya Chen', readTime:'8 min read',
+    id:4, tag:'Analytics', date:'December 2024', author:'Abinash', readTime:'8 min read',
     img:'/images/blog-analytics.svg',
     title:'How We Use Data to Make Smarter Marketing Decisions',
     excerpt:'Data without context is just noise. This is our framework for turning analytics into decisions that actually change how you work — not just dashboards you screenshot for reports.',
@@ -73,7 +73,7 @@ const posts = [
     ]
   },
   {
-    id:5, tag:'SMM', date:'November 2024', author:'Alex Rivera', readTime:'5 min read',
+    id:5, tag:'SMM', date:'November 2024', author:'Abinash', readTime:'5 min read',
     img:'/images/blog-smm.svg',
     title:'Social Media That Doesn\'t Feel Like Social Media',
     excerpt:'The brands winning on social right now don\'t look like brands at all. Here\'s how to build a social presence that feels human and actually converts — without a content factory.',
@@ -88,7 +88,7 @@ const posts = [
     ]
   },
   {
-    id:6, tag:'Insights', date:'October 2024', author:'Jordan Lee', readTime:'6 min read',
+    id:6, tag:'Insights', date:'October 2024', author:'Abinash', readTime:'6 min read',
     img:'/images/blog-insights.svg',
     title:'Freelance vs Agency: What\'s Actually Better for Your Project?',
     excerpt:'It\'s not a simple answer. Both have real advantages and real drawbacks. Here\'s an honest comparison from people who have worked on both sides of that line.',

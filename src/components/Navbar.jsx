@@ -57,10 +57,10 @@ export default function Navbar() {
 
         {/* Right controls */}
         <div style={{ display:'flex', alignItems:'center', gap:'0.5rem', flexShrink:0 }}>
-          <button onClick={toggle} className="theme-toggle"
+          {/* <button onClick={toggle} className="theme-toggle"
             aria-label={theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}>
             {theme === 'dark' ? '☀' : '☾'}
-          </button>
+          </button> */}
           <Link to="/contact" className="btn-zac d-none d-lg-inline-block"
             style={{ fontSize:'0.58rem', padding:'0.45rem 1.1rem' }}>
             Hire Us
