@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import SEOHead from '../components/SEOHead'
 
 // 👇 Paste your deployed Apps Script Web App URL here
-const SHEET_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwTKIRn1qvhKS-ILhSjny2KreDX2xtBbZWxXFqB4IcUBxCCxcDBLQvCIcpc7pxo_DtQ/exec'
+const SHEET_ENDPOINT = 'https://script.google.com/macros/s/AKfycbwT0xdmqySmjqnVtt3_z26ZabtGNZ8ZnMECXvh4KQXFcjjw239-tyDbBrNLtWXUARYNYg/exec'
 
 const faqs = [
   ['How long does a project take?', 'Depends on scope. A landing page might be 1-2 weeks. A full platform could be 2-3 months. We give you a realistic timeline upfront.'],
@@ -20,27 +20,28 @@ export default function Contact() {
   const handle = e => setForm({ ...form, [e.target.name]: e.target.value })
 
   const submit = async e => {
-    e.preventDefault()
-    setLoading(true)
-    setError('')
+  e.preventDefault()
+  setLoading(true)
+  setError('')
+  try {
+    const body = new URLSearchParams()
+    body.append('name',    form.name)
+    body.append('email',   form.email)
+    body.append('service', form.service)
+    body.append('message', form.message)
 
-    try {
-      // Apps Script requires no-cors — we won't get a readable response body,
-      // but the row will still be written. If you need confirmation, use a
-      // proper backend proxy instead.
-      await fetch(SHEET_ENDPOINT, {
-        method: 'POST',
-        mode: 'no-cors',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
-      })
-      setSent(true)
-    } catch (err) {
-      setError('Something went wrong. Please try again or email us directly.')
-    } finally {
-      setLoading(false)
-    }
+    await fetch(SHEET_ENDPOINT, {
+      method: 'POST',
+      mode: 'no-cors',
+      body: body,
+    })
+    setSent(true)
+  } catch (err) {
+    setError('Something went wrong. Please try again or email us directly.')
+  } finally {
+    setLoading(false)
   }
+}
 
   return (
     <>
